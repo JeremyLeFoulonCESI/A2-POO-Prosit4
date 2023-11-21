@@ -3,15 +3,13 @@
 
 
 BufferElement::BufferElement(const char* msg, size_t sz) :
-	sz(sz), next(nullptr) 
+	sz(sz), next(nullptr)
 {
 	if (!sz) {
 		this->msg = nullptr;
 		return;
 	}
-	this->msg = new char[sz + 1];
-	std::memcpy(this->msg, msg, sz);
-	this->msg[sz] = 0;
+	this->msg = msg;
 }
 
 BufferElement* BufferElement::getNext() {
@@ -37,10 +35,7 @@ BufferElement::~BufferElement() {
 		delete this->next;
 		this->next = nullptr;
 	}
-	if (this->msg) {
-		delete this->msg;
-		this->msg = nullptr;
-	}
+	this->msg = nullptr;
 	this->sz = 0;
 }
 

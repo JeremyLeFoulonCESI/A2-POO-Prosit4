@@ -130,16 +130,18 @@
     <ClCompile Include="A2-POO-Prosit4.cpp" />
     <ClCompile Include="BufferElement.cpp" />
     <ClCompile Include="Emitter.cpp" />
-    <ClCompile Include="EmitterBuffer.cpp" />
+    <ClCompile Include="ReceiverPoolBuffer.cpp" />
     <ClCompile Include="HertzianSpace.cpp" />
     <ClCompile Include="Receiver.cpp" />
+    <ClCompile Include="ReceiverUser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BufferElement.hpp" />
     <ClInclude Include="Emitter.hpp" />
-    <ClInclude Include="EmitterBuffer.hpp" />
+    <ClInclude Include="ReceiverPoolBuffer.hpp" />
     <ClInclude Include="HertzianSpace.hpp" />
     <ClInclude Include="Receiver.hpp" />
+    <ClInclude Include="ReceiverUser.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

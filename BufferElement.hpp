@@ -1,9 +1,10 @@
 #pragma once
 
 class BufferElement;
+
 class BufferElement
 {
-	char* msg;
+	const char* msg;
 	size_t sz;
 	BufferElement* next;
 

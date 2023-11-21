@@ -21,7 +21,7 @@
     <ClCompile Include="Emitter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EmitterBuffer.cpp">
+    <ClCompile Include="ReceiverPoolBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BufferElement.cpp">
@@ -33,12 +33,15 @@
     <ClCompile Include="Receiver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReceiverUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Emitter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EmitterBuffer.hpp">
+    <ClInclude Include="ReceiverPoolBuffer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BufferElement.hpp">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Receiver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiverUser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

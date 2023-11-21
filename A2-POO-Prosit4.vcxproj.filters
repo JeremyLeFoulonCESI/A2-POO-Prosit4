@@ -27,6 +27,12 @@
     <ClCompile Include="BufferElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HertzianSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Emitter.hpp">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BufferElement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HertzianSpace.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

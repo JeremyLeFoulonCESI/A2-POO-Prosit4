@@ -12,11 +12,13 @@ class Receiver
 	ReceiverPoolBuffer pool;
 
 public:
+	
 	Receiver(HertzianSpace* space);
 	void addUser(const char* name);
 	bool switchUser(const char* name);
 	bool switchRadio(const char* favorite_name);
 	bool switchRadio(float frequency);
+	void subToFrequency(float frequency, const char* name);
 	void onReceive(const char* msg, size_t size);
 	const char* read(size_t* out_size);
 	const char* peek(size_t* out_size);

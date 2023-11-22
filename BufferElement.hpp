@@ -1,7 +1,5 @@
 #pragma once
 
-class BufferElement;
-
 class BufferElement
 {
 	const char* msg;

@@ -30,6 +30,10 @@ bool Receiver::switchUser(const char* name) {
 	return 1;
 }
 
+void Receiver::subToFrequency(float frequency, const char* name) {
+	this->current_user->putFavoriteRadio(name, frequency);
+}
+
 bool Receiver::switchRadio(const char* favorite_name) {
 	if (this->getFrequency())
 		this->space->unregisterReceiverHandler(this, this->getFrequency());
